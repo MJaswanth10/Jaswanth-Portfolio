@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jaswanth Mamidi — Portfolio</title>
+
+  <!-- Bootstrap CSS (load first) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+
+  <!-- Custom CSS (must load after Bootstrap) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <nav id="nav" class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Jaswanth Mamidi</a>
+
+        <!-- mobile toggle -->
+        <button id="nav-toggle" class="navbar-toggler" type="button" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="nav-collapse">
+          <ul class="navbar-nav ms-auto align-items-center">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            <li class="nav-item ms-3">
+              <a class="btn btn-resume" href="https://drive.google.com/file/d/1wV0VdXDhRswLoKzVus0Wk9EhnVTVOgU4/view" target="_blank" rel="noopener">Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- PAGE BACKGROUND -->
+  <div class="page-bg">
+
+    <main class="container page-content">
+
+      <!-- HERO -->
+      <section class="section hero-section">
+        <div class="card-inner">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-8">
+              <h1 class="hero-title">Hi, I’m <span class="accent-name">Jaswanth Mamidi</span></h1>
+              <p class="hero-sub">Software Developer Fresher building polished, responsive web interfaces with HTML, CSS and JavaScript. Focused on performance, clarity and user experience.</p>
+              <div class="hero-cta">
+                <a class="btn btn-gradient" href="#projects">Projects</a>
+                <a class="btn btn-outline" href="#contact">Contact Me</a>
+              </div>
+            </div>
+
+            <div class="col-12 col-lg-4 text-center mt-4 mt-lg-0">
+              <div class="profile-card">
+                <img id="profilePhoto" src="https://i.ibb.co/k64YnmZY/1722953272249-1.jpg" alt="Profile photo" class="profile-img">
+                <div class="profile-role">Software Developer</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section light-section">
+        <div class="card-inner">
+          <div class="row">
+            <div class="col-12 col-lg-9">
+              <h2 class="section-title">About Me</h2>
+              <p class="text-muted">I am an enthusiastic Software Developer with hands-on experience building responsive web applications. My core strengths are frontend fundamentals, problem solving, and quick learning. I enjoy turning designs into fast, accessible interfaces.</p>
+              <p class="text-muted small">Technologies I use often: HTML5 • CSS3 • JavaScript (ES6) • Bootstrap • Python (basics)</p>
+            </div>
+
+            <div class="col-12 col-lg-3 mt-3 mt-lg-0 d-flex flex-column gap-2 stats-col">
+              <div class="stat">
+                <div class="stat-value">3+</div>
+                <div class="stat-label">Projects</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">Internship</div>
+                <div class="stat-label">Adrasti Technologies</div>
+              </div>
+              <div class="stat">
+                <div class="stat-value">70%+</div>
+                <div class="stat-label">B.Tech (Mechanical)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="section light-section">
+        <div class="card-inner">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="row gx-4 gy-4 mt-2">
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="project-card" tabindex="0">
+                <div class="project-media" style="background-image: url('https://i.ibb.co/qMVtMVcJ/To-do.webp');"></div>
+                <div class="project-body">
+                  <h3 class="project-title">Todos Application</h3>
+                  <p class="small text-muted">Task management app with create, update, delete and persistence using localStorage. Clean UI and accessible forms.</p>
+                  <div class="project-tags">
+                    <a class="tag live" href="#">Live</a>
+                    <a class="tag code" href="#">Code</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="project-card" tabindex="0">
+                <div class="project-media" style="background-image: url('https://i.ibb.co/mrLnRqCk/e-commerce.jpg');"></div>
+                <div class="project-body">
+                  <h3 class="project-title">E-Commerce Website</h3>
+                  <p class="small text-muted">Responsive shop layout built with Bootstrap featuring product grids and details.</p>
+                  <div class="project-tags">
+                    <a class="tag live" href="#">Live</a>
+                    <a class="tag code" href="#">Code</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="project-card" tabindex="0">
+                <div class="project-media" style="background-image: url('https://i.ibb.co/sdJW4LXs/tourism.jpg');"></div>
+                <div class="project-body">
+                  <h3 class="project-title">Tourism Website</h3>
+                  <p class="small text-muted">Travel pages with responsive galleries and engaging layout to highlight places.</p>
+                  <div class="project-tags">
+                    <a class="tag live" href="#">Live</a>
+                    <a class="tag code" href="#">Code</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section light-section">
+        <div class="card-inner">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="row gx-4 gy-4 mt-2">
+            <div class="col-12">
+              <div class="experience-grid">
+                <div class="exp-card">
+                  <div class="exp-head"><strong>Adrasti Technologies</strong><span class="exp-date">Feb 2025 - Ongoing</span></div>
+                  <div class="small text-muted">Intern — assisted in designing and developing responsive web pages, performed cross-browser testing, participated in code reviews and agile standups.</div>
+                </div>
+
+                <div class="exp-card">
+                  <div class="exp-head"><strong>Mylari Properties</strong><span class="exp-date">Nov 2024 – Mar 2025</span></div>
+                  <div class="small text-muted">Business Development Executive — market research, client outreach, and relationship management.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section light-section">
+        <div class="card-inner">
+          <h2 class="section-title">Education</h2>
+          <div class="edu-grid mt-3">
+            <div class="edu-item">
+              <strong>Nxtwave Disruptive Technologies</strong>
+              <div class="small text-muted">Industry Ready Certification — Full-stack Development (Sep 2022 – Mar 2024)</div>
+            </div>
+            <div class="edu-item">
+              <strong>Joginpally B.R. Engineering College</strong>
+              <div class="small text-muted">B.Tech — Mechanical Engineering (2019 – 2022) • 70.0%</div>
+            </div>
+            <div class="edu-item">
+              <strong>Govt. Polytechnic Madhira</strong>
+              <div class="small text-muted">Diploma — Mechanical Engineering (2016 – 2019) • 73.0%</div>
+            </div>
+            <div class="edu-item">
+              <strong>Swarna Bharathi High School</strong>
+              <div class="small text-muted">Secondary School Certificate (2006 – 2016) • 8.3 CGPA</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section light-section">
+        <div class="card-inner">
+          <h2 class="section-title">Skills</h2>
+          <div class="badge-row mt-2">
+            <span class="skill-badge">HTML5</span>
+            <span class="skill-badge">CSS3 / Bootstrap</span>
+            <span class="skill-badge">JavaScript (ES6+)</span>
+            <span class="skill-badge">Responsive Design</span>
+            <span class="skill-badge">Version Control (Git)</span>
+            <span class="skill-badge">Python (Basics)</span>
+            <span class="skill-badge">SQLite</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">FlexBox</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATES -->
+      <section class="section light-section">
+        <div class="card-inner">
+          <h2 class="section-title">Certificates</h2>
+          <p class="text-muted">Open Office with Internet Concepts / Office Automation — SBTET
+            <br>Industry Ready Certification in Full-stack Development — Nxtwave
+        </p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section light-section">
+        <div class="card-inner">
+          <h2 class="section-title">Contact</h2>
+          <p class="text-muted">If you want to collaborate or have questions, message me below or reach out via email / phone.</p>
+
+          <form id="contact-form" class="contact-form">
+            <div class="row gx-3">
+              <div class="col-12 col-md-6 mb-3">
+                <label class="form-label small" for="name">Name</label>
+                <input id="name" name="name" class="form-control" type="text" placeholder="Your Name">
+              </div>
+              <div class="col-12 col-md-6 mb-3">
+                <label class="form-label small" for="email">Email</label>
+                <input id="email" name="email" class="form-control" type="email" placeholder="you@example.com">
+              </div>
+              <div class="col-12 mb-3">
+                <label class="form-label small" for="message">Message</label>
+                <textarea id="message" name="message" class="form-control" rows="5" placeholder="Tell me about your project"></textarea>
+              </div>
+              <div class="col-12 d-flex gap-2">
+                <button type="submit" class="btn btn-send">Send</button>
+                <button type="reset" class="btn btn-reset">Reset</button>
+              </div>
+
+              <div class="col-12 mt-2">
+                <div id="form-message" class="small"></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer class="site-footer mt-4">
+        <div class="container text-center small text-muted">
+          <div class="footer-location">Location: Bhadradri Kothagudem, Telangana</div>
+          <div class = "footer-location">Email: <a href="mailto:jaswanth1042000@gmail.com" class="footer-link">jaswanth1042000@gmail.com</a> • Phone: <a class="footer-link" href="tel:7989090641">7989090641</a>
+            <a href="https://www.linkedin.com/in/mamidi-jaswanth-649b64246" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+          <div class="footer-location mt-2">© <span id="year"></span> Jaswanth Mamidi • Built with HTML, CSS & JavaScript</div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- Bootstrap JS (optional but kept for Bootstrap components) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+
+  <!-- Custom JS (your provided code placed in script.js) -->
+  <script src="script.js"></script>
+</body>
+</html>
